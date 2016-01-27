@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"I have added new nslogs");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
