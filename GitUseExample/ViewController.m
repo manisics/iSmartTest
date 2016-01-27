@@ -16,7 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"I have added new nslogs");
+    
+    int a = 0;
+    int b = 0;
+    int c = a + b;
+    
+    NSLog(@"c value %d",c);
     // Do any additional setup after loading the view, typically from a nib.
 }
 
