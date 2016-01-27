@@ -16,6 +16,7 @@
 		0215B3131C5895A900DF7A45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0215B3111C5895A900DF7A45 /* LaunchScreen.storyboard */; };
 		0215B31E1C5895A900DF7A45 /* GitUseExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0215B31D1C5895A900DF7A45 /* GitUseExampleTests.m */; };
 		0215B3291C5895A900DF7A45 /* GitUseExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0215B3281C5895A900DF7A45 /* GitUseExampleUITests.m */; };
+		0215B3381C58988D00DF7A45 /* SampleFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 0215B3371C58988D00DF7A45 /* SampleFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0215B3241C5895A900DF7A45 /* GitUseExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitUseExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0215B3281C5895A900DF7A45 /* GitUseExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitUseExampleUITests.m; sourceTree = "<group>"; };
 		0215B32A1C5895A900DF7A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0215B3361C58988D00DF7A45 /* SampleFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleFile.h; sourceTree = "<group>"; };
+		0215B3371C58988D00DF7A45 /* SampleFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleFile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 				0215B3061C5895A900DF7A45 /* ViewController.h */,
 				0215B3071C5895A900DF7A45 /* ViewController.m */,
 				0215B3091C5895A900DF7A45 /* Main.storyboard */,
+				0215B3361C58988D00DF7A45 /* SampleFile.h */,
+				0215B3371C58988D00DF7A45 /* SampleFile.m */,
 				0215B30F1C5895A900DF7A45 /* Assets.xcassets */,
 				0215B3111C5895A900DF7A45 /* LaunchScreen.storyboard */,
 				0215B3141C5895A900DF7A45 /* Info.plist */,
@@ -277,6 +282,7 @@
 				0215B3051C5895A900DF7A45 /* AppDelegate.m in Sources */,
 				0215B3021C5895A900DF7A45 /* main.m in Sources */,
 				0215B30E1C5895A900DF7A45 /* GitUseExample.xcdatamodeld in Sources */,
+				0215B3381C58988D00DF7A45 /* SampleFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
